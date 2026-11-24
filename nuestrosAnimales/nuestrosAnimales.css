@@ -1,0 +1,35 @@
+[data-bs-theme=dark] {
+  --bs-body-bg: #12303D;
+}
+
+#tituloPagina {
+  background-color: #D6FEF7;
+}
+[data-bs-theme=dark] #tituloPagina {
+  background-color: #1B4A5C;
+}
+#tituloPagina h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #00394F;
+}
+[data-bs-theme=dark] #tituloPagina h1 {
+  color: #f1f1f1;
+}
+
+#texto p {
+  text-align: center;
+  line-height: 2em;
+}
+
+#imagenes img {
+  max-width: 90%;
+  aspect-ratio: 3/2;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(0.9);
+}
+#imagenes img:hover {
+  filter: brightness(1);
+  transform: scale(1.005);
+  transition: 0.45s;
+}/*# sourceMappingURL=nuestrosAnimales.css.map */

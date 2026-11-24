@@ -1,0 +1,89 @@
+[data-bs-theme=dark] {
+  --bs-body-bg: #12303D;
+}
+
+#tituloPagina {
+  background-color: #D6FEF7;
+}
+[data-bs-theme=dark] #tituloPagina {
+  background-color: #1B4A5C;
+}
+#tituloPagina h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #00394F;
+}
+[data-bs-theme=dark] #tituloPagina h1 {
+  color: #f1f1f1;
+}
+
+#texto p {
+  text-align: center;
+  line-height: 2em;
+}
+
+#formulario button {
+  background-color: #E07A3F;
+  color: #F1F1F1;
+}
+[data-bs-theme=dark] #formulario button {
+  background-color: #EB925F;
+  color: #12303D;
+}
+
+.pagina {
+  display: none;
+}
+.pagina.activo {
+  display: block;
+}
+
+.page-link {
+  color: #E07A3F;
+}
+[data-bs-theme=dark] .page-link {
+  color: #EB925F;
+}
+
+.page-item.active .page-link {
+  background-color: #E07A3F;
+  border-color: #E07A3F;
+  color: #F1F1F1;
+}
+
+#noEncuentras {
+  background-color: #D6FEF7;
+}
+[data-bs-theme=dark] #noEncuentras {
+  background-color: #1B4A5C;
+}
+#noEncuentras h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #00394F;
+}
+[data-bs-theme=dark] #noEncuentras h3 {
+  color: #f1f1f1;
+}
+#noEncuentras h6 {
+  color: #00394F;
+}
+[data-bs-theme=dark] #noEncuentras h6 {
+  color: #f1f1f1;
+}
+#noEncuentras button {
+  background-color: #E07A3F;
+  color: #00394F;
+}
+[data-bs-theme=dark] #noEncuentras button {
+  background-color: #EB925F;
+  color: #12303D;
+}
+#noEncuentras button:hover {
+  background-color: #C4652D;
+  color: #F1F1F1;
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+[data-bs-theme=dark] #noEncuentras button:hover {
+  background-color: #EB925F;
+  color: #f1f1f1;
+}/*# sourceMappingURL=gatos.css.map */

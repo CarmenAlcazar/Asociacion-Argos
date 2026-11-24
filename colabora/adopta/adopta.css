@@ -1,0 +1,81 @@
+[data-bs-theme=dark] {
+  --bs-body-bg: #12303D;
+}
+
+#tituloPagina {
+  background-color: #D6FEF7;
+}
+[data-bs-theme=dark] #tituloPagina {
+  background-color: #1B4A5C;
+}
+#tituloPagina h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #00394F;
+}
+[data-bs-theme=dark] #tituloPagina h1 {
+  color: #f1f1f1;
+}
+
+#texto p {
+  text-align: justify;
+  line-height: 2em;
+}
+
+.pasos {
+  max-width: 50%;
+}
+
+form span {
+  color: #E07A3F;
+}
+form .btn-siguiente {
+  background-color: #E07A3F;
+}
+[data-bs-theme=dark] form .btn-siguiente {
+  background-color: #EB925F;
+  color: #12303D;
+}
+form .btn-siguiente:hover {
+  background-color: #C4652D;
+  color: #F1F1F1;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+[data-bs-theme=dark] form .btn-siguiente:hover {
+  background-color: #EB925F;
+  color: #12303D;
+}
+form h3 {
+  color: #00394F;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.75rem;
+}
+form p {
+  text-align: justify;
+}
+
+#paso1,
+#paso2,
+#paso3,
+#paso4,
+#paso5 {
+  display: none;
+}
+#paso1.activo,
+#paso2.activo,
+#paso3.activo,
+#paso4.activo,
+#paso5.activo {
+  display: block;
+}
+
+.alerta-flotante {
+  position: fixed;
+  top: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1050;
+  min-width: 300px;
+  max-width: 90%;
+  transition: 0.3s;
+}/*# sourceMappingURL=adopta.css.map */

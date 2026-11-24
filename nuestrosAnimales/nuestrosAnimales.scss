@@ -1,0 +1,38 @@
+@use "../color" as c;
+@use "../font" as f;
+@use "../noche" as n;
+
+#tituloPagina {
+  background-color: c.$azul_suave;
+  @include n.noche {
+    background-color: n.$noche_superficie;
+  }
+  h1 {
+    font-family: f.$titulo;
+    color: c.$azul_oscuro;
+    @include n.noche {
+      color: n.$blanco;
+    }
+  }
+}
+
+#texto {
+  p {
+    text-align: center;
+    line-height: f.$line-height;
+  }
+}
+
+#imagenes {
+  img {
+    max-width: 90%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    filter: brightness(0.9);
+  }
+  img:hover {
+    filter: brightness(1);
+    transform: scale(1.005);
+    transition: 0.45s;
+  }
+}

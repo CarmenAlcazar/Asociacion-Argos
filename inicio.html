@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <title>Asociación Argos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body data-bs-theme="light">
+    <header class="flex-wrap">
+        <a href="./inicio.html" class="col-12 col-lg-auto text-center order-0">
+            <img src="./imagenes/logo argos.png" alt="Logo Asociación Argos" class="mx-auto">
+        </a>
+    
+        <button class="btn text-white border-0 p-2 d-lg-none order-1" type="button" data-bs-toggle="collapse"
+            data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+            </svg>
+        </button>
+    
+        <ul id="menuPrincipal"
+            class="menu collapse d-lg-flex flex-column flex-lg-row col-12 col-lg-auto order-3 order-lg-1">
+            <li><a href="#">La fundación</a>
+                <ul class="submenu">
+                    <li><a href="./nuestraHistoria/nuestraHistoria.html">Nuestra Historia</a></li>
+                    <li><a href="./equipo/equipo.html">Equipo</a></li>
+                    <li><a href="./colaboradores/colaboradores.html">Colaboradores</a></li>
+                </ul>
+            </li>
+    
+            <li><a href="./nuestrosAnimales/nuestrosAnimales.html">Nuestros Animales</a>
+                <ul class="submenu">
+                    <li><a href="./nuestrosAnimales/perros/perros.html">Perros en Adopción</a></li>
+                    <li><a href="./nuestrosAnimales/gatos/gatos.html">Gatos en Adopción</a></li>
+                </ul>
+            </li>
+    
+            <li><a href="./colabora/colabora.html">Colabora</a>
+                <ul class="submenu">
+                    <li><a href="./colabora/adopta/adopta.html">Adopta</a></li>
+                    <li><a href="./colabora/padrino/padrino.html">Hazte padrino</a></li>
+                    <li><a href="./colabora/socio/socio.html">Hazte socio</a></li>
+                    <li><a href="./colabora/voluntariado/voluntariado.html">Voluntariado</a></li>
+                    <li><a href="./colabora/donaciones/donaciones.html">Donaciones</a></li>
+                </ul>
+            </li>
+    
+            <li><a href="./contacto/contacto.html">Contacto</a></li>
+            <li>
+                <button id="icons" class="btn rounded-pill text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-moon-stars" viewBox="0 0 16 16">
+                        <path
+                            d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278M4.858 1.311A7.27 7.27 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.32 7.32 0 0 0 5.205-2.162q-.506.063-1.029.063c-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286" />
+                        <path
+                            d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z" />
+                    </svg>
+                </button>
+            </li>
+        </ul>
+    
+        <a href="./colabora/donaciones/donaciones.html" class="ms-auto ms-lg-0 order-2"><button>DONA</button></a>
+    </header>
+
+    <main id="inicio">
+        <div class="row g-0 align-items-stretch">
+            <div id="portada-info" class="col-12 col-lg-6 d-flex flex-column justify-content-center">
+                <h1 class="fw-bold">Cada animal merece un hogar</h1>
+                <p>Rescatamos, cuidamos y buscamos familia para perros y gatos abandonados.</p>
+                <div class="d-flex flex-wrap gap-3">
+                    <a href="./colabora/adopta/adopta.html" id="adopta"
+                        class="btn border-0 rounded-1 fw-bold p-2 px-3 m-0">Adopta</a>
+                    <a href="./nuestrosAnimales/nuestrosAnimales.html" id="conoce"
+                        class="btn rounded-1 fw-bold p-2 px-3 m-0">Conoce a los animales</a>
+                </div>
+            </div>
+
+            <div id="portada-imagen" class="col-12 col-lg-6">
+                <img src="./imagenes/perro-blanco.jpg" alt="Perro blanco esperando en el refugio">
+            </div>
+        </div>
+
+        <div id="quierenConocerte" class="container py-5">
+            <div class="d-flex flex-column align-items-center text-center">
+                <h2 class="fw-bold">Quieren conocerte</h2>
+                <h6>Ellos son algunos de los animales que esperan una familia</h6>
+            </div>
+        </div>
+
+        <section id="carrusel" class="container">
+            <div id="carouselExampleIndicators" class="carousel slide">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+
+                </div>
+
+                <div class="carousel-inner">
+
+
+                    <div class="carousel-item active">
+                        <div class="row g-3">
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <article class="card h-100 shadow-sm">
+                                    <img src="./imagenes/nayara.jpg" class="card-img-top" alt="Nayara">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">Nayara</h4>
+                                        <p class="card-text fst-italic py-1 m-0">hembra</p>
+                                        <p class="card-text fst-italic p-0">4 años y 8 meses · grande</p>
+                                        <a href="./colabora/adopta/adopta.html"><button
+                                                class="border-0 rounded-4 p-2 fw-bold  w-100">Adóptame</button></a>
+                                    </div>
+                                </article>
+                            </div>
+
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <article class="card h-100 shadow-sm">
+                                    <img src="./imagenes/Lia.jpg" class="card-img-top" alt="Lia">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">Lia</h4>
+                                        <p class="card-text fst-italic py-1 m-0">hembra</p>
+                                        <p class="card-text fst-italic p-0">5 meses · tricolor</p>
+                                        <a href="./colabora/adopta/adopta.html"><button
+                                                class="border-0 rounded-4 p-2 fw-bold  w-100">Adóptame</button></a>
+                                    </div>
+                                </article>
+                            </div>
+
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <article class="card h-100 shadow-sm">
+                                    <img src="./imagenes/baby.jpg" class="card-img-top" alt="Baby">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">Lia</h4>
+                                        <p class="card-text fst-italic py-1 m-0">hembra</p>
+                                        <p class="card-text fst-italic p-0">10 años · grande</p>
+                                        <a href="./colabora/adopta/adopta.html"><button
+                                                class="border-0 rounded-4 p-2 fw-bold  w-100">Adóptame</button></a>
+                                    </div>
+                                </article>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <div class="row g-3">
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <article class="card h-100 shadow-sm">
+                                    <img src="./imagenes/india.jpg" class="card-img-top" alt="India">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">India</h4>
+                                        <p class="card-text fst-italic py-1 m-0">hembra</p>
+                                        <p class="card-text fst-italic p-0">3 años y 10 meses · mediana</p>
+                                        <a href="./colabora/adopta/adopta.html"><button
+                                                class="border-0 rounded-4 p-2 fw-bold  w-100">Adóptame</button></a>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <article class="card h-100 shadow-sm">
+                                    <img src="./imagenes/curro.jpg" class="card-img-top" alt="Curro">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">Curro</h4>
+                                        <p class="card-text fst-italic py-1 m-0">macho</p>
+                                        <p class="card-text fst-italic p-0">6 años y 5 meses · mediano</p>
+                                        <a href="./colabora/adopta/adopta.html"><button
+                                                class="border-0 rounded-4 p-2 fw-bold  w-100">Adóptame</button></a>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <article class="card h-100 shadow-sm">
+                                    <img src="./imagenes/artemisa.jpg" class="card-img-top" alt="Artemisa">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">Artemisa</h4>
+                                        <p class="card-text fst-italic py-1 m-0">hembra</p>
+                                        <p class="card-text fst-italic p-0">9 años y 6 meses · blanca y negra</p>
+                                        <a href="./colabora/adopta/adopta.html"><button
+                                                class="border-0 rounded-4 p-2 fw-bold  w-100">Adóptame</button></a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="carousel-item">
+                        <div class="row g-3">
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <article class="card h-100 shadow-sm">
+                                    <img src="./imagenes/adiel.jpg" class="card-img-top" alt="Adiel">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">Adiel</h4>
+                                        <p class="card-text fst-italic py-1 m-0">macho</p>
+                                        <p class="card-text fst-italic p-0">14 años y 9 meses · atigrado</p>
+                                        <a href="./colabora/adopta/adopta.html"><button
+                                                class="border-0 rounded-4 p-2 fw-bold  w-100">Adóptame</button></a>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <article class="card h-100 shadow-sm">
+                                    <img src="./imagenes/apache.jpg" class="card-img-top" alt="Apache">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">Apache</h4>
+                                        <p class="card-text fst-italic py-1 m-0">hembra</p>
+                                        <p class="card-text fst-italic p-0">6 años y 3 meses · tricolor</p>
+                                        <a href="./colabora/adopta/adopta.html"><button
+                                                class="border-0 rounded-4 p-2 fw-bold  w-100">Adóptame</button></a>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <article class="card h-100 shadow-sm">
+                                    <img src="./imagenes/clover.jpg" class="card-img-top" alt="Clover">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">Clover</h4>
+                                        <p class="card-text fst-italic py-1 m-0">hembra</p>
+                                        <p class="card-text fst-italic p-0">3 años y 3 meses · mediana</p>
+                                        <a href="./colabora/adopta/adopta.html"><button
+                                                class="border-0 rounded-4 p-2 fw-bold  w-100">Adóptame</button></a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+
+            </div>
+        </section>
+
+
+
+
+    </main>
+    <footer class="mt-5 ">
+        <div class="container">
+            <div id="pie" class="row py-5">
+                <div class=" col-12 col-md-6 col-lg-4 d-flex flex-column">
+                    <img class="py-2" src="./imagenes/logo argos.png" alt="Logo Asociación Argos">
+                    <h5 class="py-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                        </svg> Córdoba, España</h5>
+                    <h5 class="py-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                        </svg> 652 XX XX XX</h5>
+                    <h5 class="py-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671" />
+                            <path
+                                d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791" />
+                        </svg> ejemplo@info.com </h5>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 py-2">
+                    <h3 class="fw-bold">INFORMACIÓN</h3>
+                    <h5 class="py-2"><a href="./colabora/adopta/adopta.html"> Adopta</a> </h5>
+                    <h5 class="py-2"><a href="./colabora/donaciones/donaciones.html"> Donaciones</a> </h5>
+                    <h5 class="py-2"><a href="./colabora/voluntariado/voluntariado.html"> Voluntariado</a> </h5>
+                    <h5 class="py-2"><a href="./contacto/contacto.html"> Contacto</a> </h5>
+                </div>
+
+                <div class="col-12 col-lg-4 d-flex flex-column ">
+                    <h3 class="fw-bold py-2">SUSCRÍBETE A LA NEWSLETTER</h3>
+                    <h5 class="py-2">Podrás darte de baja en cualquier momento.</h5>
+                    <form class="">
+                        <label class="py-1">E-mail<span class="asterisco"> *</span></label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+                        <div class="py-3">
+                            <input class="form-check-input" type="checkbox" id="politica" name="politica" required>
+                            <label class="form-check-label" for="politica">
+                                Acepto la política de tratamiento de datos
+                            </label>
+                        </div>
+
+                        <button type="submit" class="mt-2 px-5 py-1 rounded-4 w-100 fw-bold border-0">Enviar</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex flex-column  text-center">
+                    <hr class="my-2 px-4 py-1">
+                    <p>Página web creada por Carmen Alcázar</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="modoNoche.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <title>Adopta | Asociación Argos</title>
+    <link rel="stylesheet" href="../../estilo.css">
+    <link rel="stylesheet" href="./adopta.css">
+</head>
+
+<body data-bs-theme="light">
+    <header class="flex-wrap">
+        <a href="../../inicio.html" class="col-12 col-lg-auto text-center order-0">
+            <img src="../../imagenes/logo argos.png" alt="Logo Asociación Argos" class="mx-auto">
+        </a>
+
+        <button class="btn text-white border-0 p-2 d-lg-none order-1" type="button" data-bs-toggle="collapse"
+            data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+            </svg>
+        </button>
+
+        <ul id="menuPrincipal"
+            class="menu collapse d-lg-flex flex-column flex-lg-row col-12 col-lg-auto order-3 order-lg-1">
+            <li><a href="#">La fundación</a>
+                <ul class="submenu">
+                    <li><a href="../../nuestraHistoria/nuestraHistoria.html">Nuestra Historia</a></li>
+                    <li><a href="../../equipo/equipo.html">Equipo</a></li>
+                    <li><a href="../../colaboradores/colaboradores.html">Colaboradores</a></li>
+                </ul>
+            </li>
+
+            <li><a href="../../nuestrosAnimales/nuestrosAnimales.html">Nuestros Animales</a>
+                <ul class="submenu">
+                    <li><a href="../../nuestrosAnimales/perros/perros.html">Perros en Adopción</a></li>
+                    <li><a href="../../nuestrosAnimales/gatos/gatos.html">Gatos en Adopción</a></li>
+                </ul>
+            </li>
+
+            <li><a href="../../colabora/colabora.html">Colabora</a>
+                <ul class="submenu">
+                    <li><a href="../../colabora/adopta/adopta.html">Adopta</a></li>
+                    <li><a href="../../colabora/padrino/padrino.html">Hazte padrino</a></li>
+                    <li><a href="../../colabora/socio/socio.html">Hazte socio</a></li>
+                    <li><a href="../../colabora/voluntariado/voluntariado.html">Voluntariado</a></li>
+                    <li><a href="../../colabora/donaciones/donaciones.html">Donaciones</a></li>
+                </ul>
+            </li>
+
+            <li><a href="../../contacto/contacto.html">Contacto</a></li>
+            <li>
+                <button id="icons" class="btn rounded-pill text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-moon-stars" viewBox="0 0 16 16">
+                        <path
+                            d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278M4.858 1.311A7.27 7.27 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.32 7.32 0 0 0 5.205-2.162q-.506.063-1.029.063c-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286" />
+                        <path
+                            d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z" />
+                    </svg>
+                </button>
+            </li>
+        </ul>
+
+        <a href="../../colabora/donaciones/donaciones.html" class="ms-auto ms-lg-0 order-2"><button>DONA</button></a>
+    </header>
+
+    <main id="inicio">
+        <div id="tituloPagina" class="row py-5">
+            <div class="col-12">
+                <h1 class="fw-bold text-center">ADOPTA</h1>
+
+            </div>
+        </div>
+        <div id="texto" class="row">
+            <div class="col-12 offset-lg-1 col-lg-10 justify-content-center text-justify p-5 text-wrap ">
+                <p>
+                    Aquí están, más de 300 peludos esperando a que alguien les cambie la vida (y ellos a ti,
+                    que eso también pasa). Para que no te pierdas entre tanto hocico y tanto bigote, puedes
+                    filtrar por especie, sexo y edad.
+                </p>
+                <p>
+                    ¿No ves a tu compañero ideal? Tranquilo, no tires la toalla. Rellena el formulario y nos
+                    ponemos manos a la obra: cuéntanos cómo es tu familia, tu casa y tu día a día, y el equipo
+                    de adopciones se encargará de buscarte a quien mejor encaje.
+                </p>
+                <p>
+                    ¿Ya lo tienes claro? Entonces rellena el cuestionario y te contactamos pronto. Si tardamos
+                    unos días en responder, paciencia: estamos con las patas en la masa, y prometemos contestarte
+                    en cuanto podamos.
+                </p>
+            </div>
+        </div>
+
+        <!-- /////////////////// FORMULARIOS ///////////////////-->
+        <!--Las preguntas del formulario las he recopilado de la web: https://protectoraderute.org/formulario-de-preadopcion/-->
+        <section id="paso1">
+            <div class="row">
+                <div class=" d-flex justify-content-center">
+
+                    <img src="./imagenes/paso1.png" alt="" class="pasos align-items-center">
+                </div>
+                <form class="py-2 px-5">
+                    <div class="row">
+                        <div class="col-12 col-md-6 offset-lg-1 col-lg-5">
+                            <label for="nombre">Nombre <span>*</span></label>
+                            <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre"
+                                required>
+
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-5">
+                            <label for="apellidos">Apellidos <span>*</span></label>
+                            <input type="text" id="apellidos" name="apellidos" class="form-control"
+                                placeholder="Apellidos" required>
+                        </div>
+                    </div>
+
+
+                    <div class="row pt-3">
+                        <div class="col-12 col-md-6 offset-lg-1 col-lg-5">
+                            <label for="dni">DNI <span>*</span></label>
+                            <input type="text" id="dni" name="dni" class="form-control" placeholder="DNI" required>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-5">
+                            <label for="fechaNacimiento">Fecha de Nacimiento <span>*</span></label>
+                            <input type="date" id="fechaNacimiento" name="fechaNacimiento" class="form-control"
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="row pt-3">
+                        <div class="col-12 offset-lg-1 col-lg-10">
+                            <label for="dirección">Dirección <span>*</span></label>
+                            <input type="text" id="dirección" name="dirección" class="form-control"
+                                placeholder="Dirección completa" required>
+                        </div>
+                    </div>
+
+                    <div class="row pt-3">
+                        <div class="col-12 col-md-6 offset-lg-1 col-lg-5">
+                            <label for="localidad">Localidad <span>*</span></label>
+                            <input type="text" id="localidad" name="localidad" class="form-control"
+                                placeholder="Córdoba" required>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-5">
+                            <label for="codigoPostal">Código Postal <span>*</span></label>
+                            <input type="text" id="codigoPostal" name="codigoPostal" class="form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="row pt-3">
+                        <div class="col-12 col-md-6 offset-lg-1 col-lg-5">
+                            <label for="telefono">Teléfono <span>*</span></label>
+                            <input type="text" id="telefono" name="telefono" class="form-control"
+                                placeholder="xxx-xx-xx-xx" required>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-5">
+                            <label for="email">Correo electrónico <span>*</span></label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="row pt-3">
+                        <div class="offset-lg-1 col">
+                            <button type="submit"
+                                class="btn-siguiente border-0 rounded-3 px-5 py-2 fw-bold">Siguiente</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+
+
+
+
+        <section id="paso2">
+            <div class="row">
+                <div class="d-flex justify-content-center">
+
+                    <img src="./imagenes/paso2.png" alt="" class="pasos align-items-center">
+                </div>
+                <form class="py-2 px-5">
+                    <div class="row">
+                        <div class="col-12 col-md-6 offset-lg-1 col-lg-5">
+                            <label for="vivienda">Selecciona el tipo de vivienda <span>*</span></label>
+                            <select class="form-select" id="vivienda" name="vivienda" required>
+                                <option selected value="">Selecciona el tipo de vivienda</option>
+                                <option value="1">Piso</option>
+                                <option value="2">Chalet</option>
+                                <option value="3">Casa adosada</option>
+                                <option value="4">Otro</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-5">
+                            <label for="propiedad">Propiedad o alquiler <span>*</span></label>
+                            <select class="form-select" id="propiedad" name="propiedad" required>
+                                <option selected value="">Selecciona una opción</option>
+                                <option value="1">Propia</option>
+                                <option value="2">Alquiler (permite mascotas)</option>
+                                <option value="3">Alquiler (no permitido)</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-12 col-md-6 offset-lg-1 col-lg-5">
+                            <label for="terraza">¿Dispone de jardín/terraza/vallado en ventanas? <span>*</span></label>
+                            <select class="form-select" id="terraza" name="terraza" required>
+                                <option selected value="">Selecciona una opción</option>
+                                <option value="1">Sí - vallado</option>
+                                <option value="2">Sí - sin vallado</option>
+                                <option value="3">No</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-5">
+                            <label for="alergias">¿Hay personas alérgicas? <span>*</span></label>
+                            <select class="form-select" id="alergias" name="alergias" required>
+                                <option selected value="">Selecciona una opción</option>
+                                <option value="1">Sí</option>
+                                <option value="2">No</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="row pt-3">
+                        <div class="col-12 offset-lg-1 col-lg-10 d-flex flex-column">
+                            <label for="convive">¿Con quién convive? <span>*</span></label>
+                            <textarea type="text" id="convive" name="convive" class="form-control" rows="4"
+                                placeholder="Indicar edades de niños, otras personas..." required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row pt-3">
+                        <div class="col-12 col-md-6 offset-lg-1 col-lg-5">
+                            <label for="profesión">Profesión <span>*</span></label>
+                            <input type="text" id="profesión" name="profesión" class="form-control"
+                                placeholder="¿A qué se dedica?" required>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-5">
+                            <label for="horario">Horario laboral <span>*</span></label>
+                            <input type="text" id="horario" name="horario" class="form-control"
+                                placeholder="Ej: L-V 9:00-18:00" required>
+                        </div>
+                    </div>
+
+                    <div class="row pt-3">
+                        <div class="col-12 col-md-6 offset-lg-1 col-lg-5">
+                            <label for="viaje">¿Viaja con frecuencia? <span>*</span></label>
+                            <select class="form-select" id="viaje" name="viaje" required>
+                                <option selected value="">Selecciona una opción</option>
+                                <option value="1">Sí</option>
+                                <option value="2">No</option>
+                                <option value="3">Ocasionalmente</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-5">
+                            <label for="viajeMascota">¿Se llevaría su mascota de viaje? <span>*</span></label>
+                            <select class="form-select" id="viajeMascota" name="viajeMascota" required>
+                                <option selected value="">Selecciona una opción</option>
+                                <option value="1">Sí</option>
+                                <option value="2">No</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row pt-3">
+                        <div class="offset-lg-1 col">
+                            <button type="button" id="anterior2"
+                                class="btn-anterior border-0 rounded-3 px-5 py-2 fw-bold">Anterior</button>
+                            <button type="submit"
+                                class="btn-siguiente border-0 rounded-3 px-5 py-2 fw-bold">Siguiente</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+
+
+        <section id="paso3">
+            <div class="row">
+                <div class="d-flex justify-content-center">
+
+                    <img src="./imagenes/paso3.png" alt="" class="pasos align-items-center">
+                </div>
+                <form class="py-2 px-5">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-12 offset-lg-1 col-lg-10 d-flex flex-column">
+                                <label for="otrasMascotas">¿Tiene otras mascotas? <span>*</span></label>
+                                <textarea type="text" id="otrasMascotas" name="otrasMascotas" class="form-control"
+                                    rows="4" placeholder="Indicar especie, edad, ¿esterilizado?" required></textarea>
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <div class="col-12 offset-lg-1 col-lg-10 d-flex flex-column">
+                                <label for="experiencia">Experiencia con animales <span>*</span></label>
+                                <textarea type="text" id="experiencia" name="experiencia" class="form-control" rows="4"
+                                    placeholder="Describe tu experiencia con perros/gatos..." required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 col-md-6 offset-lg-1 col-lg-5">
+                                <label for="veterinario">Veterinario (nombre y teléfono)</label>
+                                <input type="text" id="veterinario" name="veterinario" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <div class="offset-lg-1 col">
+                                <button type="button" id="anterior3"
+                                    class="btn-anterior border-0 rounded-3 px-5 py-2 fw-bold">Anterior</button>
+                                <button type="submit"
+                                    class="btn-siguiente border-0 rounded-3 px-5 py-2 fw-bold">Siguiente</button>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </section>
+
+
+
+
+
+
+        <section id="paso4">
+            <div class="row">
+                <div class="d-flex justify-content-center">
+
+                    <img src="./imagenes/paso4.png" alt="" class="pasos align-items-center">
+                </div>
+                <form class="py-2 px-5">
+                    <div class="row">
+                        <div class="col-12 col-md-6 offset-lg-1 col-lg-5">
+                            <label for="animal">Animal por el que pregunta (nombe/ID)</label>
+                            <input type="text" id="animal" name="animal" class="form-control">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-5">
+                            <label for="tipoAnimal">Tipo de animal</label>
+                            <div class="row pt-2">
+                                <div class="col-6 col-lg-2">
+                                    <input class="form-check-input" type="checkbox" id="tipoPerro" name="tipoAnimal"
+                                        value="perro">
+                                    <label class="form-check-label" for="tipoPerro">Perro</label>
+                                </div>
+                                <div class="col-6">
+                                    <input class="form-check-input" type="checkbox" id="tipoGato" name="tipoAnimal"
+                                        value="gato">
+                                    <label class="form-check-label" for="tipoPerro">Gato</label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="row pt-3">
+                        <div class="col-12 offset-lg-1 col-lg-10">
+                            <label for="medico">¿Aceptarías un animal con necesidades médicas? <span>*</span></label>
+                            <select class="form-select" id="medico" name="medico" required>
+                                <option selected value="">Selecciona una opción</option>
+                                <option value="1">Sí</option>
+                                <option value="2">No</option>
+                                <option value="3">Depende - Explicar en comentarios adicionales</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row pt-3">
+                        <div class="col-12 offset-lg-1 col-lg-10 d-flex flex-column">
+                            <label for="comentarios">Comentarios adicionales</label>
+                            <textarea type="text" id="comentarios" name="comentarios" class="form-control"
+                                rows="4"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row pt-3">
+                        <div class="col-12 offset-lg-1 col-lg-10 d-flex flex-column">
+                            <label for="motivo">Motivo para adoptar <span>*</span></label>
+                            <textarea type="text" id="motivo" name="motivo" class="form-control" rows="4"
+                                placeholder="¿Por qué quieres adoptar?" required></textarea>
+                        </div>
+                    </div>
+
+
+                    <div class="row pt-3">
+                        <div class="offset-lg-1 col">
+                            <button type="button" id="anterior4"
+                                class="btn-anterior border-0 rounded-3 px-5 py-2 fw-bold">Anterior</button>
+                            <button type="submit"
+                                class="btn-siguiente border-0 rounded-3 px-5 py-2 fw-bold">Siguiente</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+
+        <section id="paso5">
+            <div class="row">
+                <div class="d-flex justify-content-center">
+                    <img src="./imagenes/paso5.png" alt="Paso 5 de 5: Gastos" class="pasos align-items-center">
+                </div>
+
+                <form class="py-2 px-5 ">
+
+                    <div class="row pt-3">
+                        <div class="col-12 offset-lg-2 col-lg-10">
+                            <h3 class="fw-bold pb-2">Gastos de la adopción</h3>
+                            <p>
+                                Las tasas de adopción se abonan en el momento de formalizar la adopción.
+                                Cubren la vacunación, la desparasitación, el microchip y la esterilización del animal.
+                            </p>
+                            <p>
+                                Si el animal tiene que viajar a otra localidad, los gastos del desplazamiento
+                                corren a cargo del adoptante. Te informaremos del importe antes de cerrar nada.
+                            </p>
+                            <p>
+                                Cualquier otro gasto que pueda surgir te lo comunicaremos siempre por adelantado.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row pt-3">
+                        <div class="col-12 offset-lg-2 col-lg-10">
+                            <input class="form-check-input" type="checkbox" id="aceptaGastos" name="aceptaGastos"
+                                required>
+                            <label class="form-check-label" for="aceptaGastos" required>
+                                He leído y acepto las tasas de adopción y los gastos de desplazamiento <span>*</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="row pt-3">
+                        <div class="col-12 offset-lg-2 col-lg-10">
+                            <input class="form-check-input" type="checkbox" id="aceptaPrivacidad"
+                                name="aceptaPrivacidad" required>
+                            <label class="form-check-label" for="aceptaPrivacidad">
+                                Acepto la <a href="#">política de privacidad</a> y el tratamiento de mis datos
+                                personales para gestionar esta solicitud <span>*</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="row pt-3">
+                        <div class="col-12 offset-lg-2 col-lg-10">
+                            <input class="form-check-input" type="checkbox" id="aceptaContacto" name="aceptaContacto">
+                            <label class="form-check-label" for="aceptaContacto" required>
+                                Acepto que la asociación se ponga en contacto conmigo por teléfono o correo electrónico
+                                <span>*</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="row pt-5">
+                        <div class="offset-lg-2 col">
+                            <button type="button" id="anterior5"
+                                class="btn-anterior border-0 rounded-3 px-5 py-2 fw-bold">Anterior</button>
+                            <button type="submit" class="btn-siguiente border-0 rounded-3 px-5 py-2 fw-bold">Enviar
+                                solicitud</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="mt-5">
+        <div class="container">
+            <div id="pie" class="row py-5">
+                <div class="col-12 col-md-6 col-lg-4 d-flex flex-column">
+                    <img class="py-2" src="../../imagenes/logo argos.png" alt="Logo Asociación Argos">
+                    <h5 class="py-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                        </svg> Córdoba, España</h5>
+                    <h5 class="py-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                        </svg> 652 XX XX XX</h5>
+                    <h5 class="py-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671" />
+                            <path
+                                d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791" />
+                        </svg> ejemplo@info.com </h5>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 py-2">
+                    <h3 class="fw-bold">INFORMACIÓN</h3>
+                    <h5 class="py-2"><a href="../../colabora/adopta/adopta.html">Adopta</a></h5>
+                    <h5 class="py-2"><a href="../../colabora/donaciones/donaciones.html">Donaciones</a></h5>
+                    <h5 class="py-2"><a href="../../colabora/voluntariado/voluntariado.html">Voluntariado</a></h5>
+                    <h5 class="py-2"><a href="../../contacto/contacto.html">Contacto</a></h5>
+                </div>
+
+                <div class="col-12 col-lg-4 d-flex flex-column">
+                    <h3 class="fw-bold py-2">SUSCRÍBETE A LA NEWSLETTER</h3>
+                    <h5 class="py-2">Podrás darte de baja en cualquier momento.</h5>
+                    <form>
+                        <label class="py-1" for="email">E-mail<span class="asterisco"> *</span></label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+                        <div class="py-3">
+                            <input class="form-check-input" type="checkbox" id="politica" name="politica" required>
+                            <label class="form-check-label" for="politica">
+                                Acepto la política de tratamiento de datos
+                            </label>
+                        </div>
+
+                        <button type="submit" class="mt-2 px-5 py-1 rounded-4 w-100 fw-bold border-0">Enviar</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex flex-column text-center">
+                    <hr class="my-2 px-4 py-1">
+                    <p>Página web creada por Carmen Alcázar</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../modoNoche.js"></script>
+    <script src="./formulario.js"></script>
+</body>
+
+</html>

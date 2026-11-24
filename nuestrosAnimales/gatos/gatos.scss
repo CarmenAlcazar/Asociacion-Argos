@@ -1,0 +1,100 @@
+@use "../../color" as c;
+@use "../../font" as f;
+@use "../../noche" as n;
+
+#tituloPagina {
+  background-color: c.$azul_suave;
+  @include n.noche {
+    background-color: n.$noche_superficie;
+  }
+  h1 {
+    font-family: f.$titulo;
+    color: c.$azul_oscuro;
+    @include n.noche {
+      color: n.$blanco;
+    }
+  }
+}
+
+#texto {
+  p {
+    text-align: center;
+    line-height: f.$line-height;
+  }
+}
+
+#formulario {
+  button {
+    background-color: c.$naranja_acento;
+    color: c.$blanco;
+
+    @include n.noche {
+      background-color: n.$noche_naranja_hover;
+      color: n.$noche_fondo;
+    }
+  }
+}
+
+.pagina {
+  display: none;
+
+  &.activo {
+    display: block;
+  }
+}
+
+.page-link {
+  color: c.$naranja_acento;
+  @include n.noche {
+    color: n.$noche_naranja_hover;
+  }
+}
+
+.page-item.active .page-link {
+  background-color: c.$naranja_acento;
+  border-color: c.$naranja_acento;
+  color: c.$blanco;
+}
+
+#noEncuentras {
+  background-color: c.$azul_suave;
+  @include n.noche {
+    background-color: n.$noche_superficie;
+  }
+  h3 {
+    font-family: f.$titulo;
+    color: c.$azul_oscuro;
+    @include n.noche {
+      color: n.$blanco;
+    }
+  }
+
+  h6 {
+    color: c.$azul_oscuro;
+    @include n.noche {
+      color: n.$blanco;
+    }
+  }
+
+  button {
+    background-color: c.$naranja_acento;
+    color: c.$azul_oscuro;
+
+    @include n.noche {
+      background-color: n.$noche_naranja_hover;
+      color: n.$noche_fondo;
+    }
+  }
+
+  button:hover {
+    background-color: c.$naranja_acento_hover;
+    color: c.$blanco;
+    transform: translateY(-5px);
+    transition: 0.3s;
+
+    @include n.noche {
+      background-color: n.$noche_naranja_hover;
+      color: n.$blanco;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+
+$noche_fondo: #12303D;
+$noche_superficie: #1B4A5C;
+$noche_azul: #6BB7C4;
+$noche_naranja_hover: #EB925F;
+$blanco: #f1f1f1;
+
+[data-bs-theme="dark"] {
+  --bs-body-bg: #{$noche_fondo};
+}
+@mixin noche {
+  [data-bs-theme="dark"] & {
+    @content;
+  }
+}
